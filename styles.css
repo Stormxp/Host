@@ -1,0 +1,88 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with an ocean blue background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light blue for a calm ocean feel */
+    color: #004d40;  /* Dark teal for text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container styling */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    border-left: 10px solid #00796b; /* Ocean blue accent */
+    border-right: 10px solid #00796b; /* Ocean blue accent */
+}
+
+/* Header styling */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #00796b; /* Ocean blue color */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #004d40; /* Dark teal for text */
+}
+
+/* Contact info styling */
+.contact-info {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #004d40;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #00796b;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p, .contact-info p {
+        font-size: 16px;
+    }
+}
